@@ -20,3 +20,10 @@ def sauda2(nome):
 
 def tchau():
 	print("ok, tchau!")
+
+def fat(x):
+    if x == 1:
+        return 1
+    else:
+        return x * fat(x - 1)
+print(str(fat(5)))
